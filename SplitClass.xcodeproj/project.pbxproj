@@ -14,13 +14,13 @@
 		CE42987717F47803009658E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE42987617F47803009658E9 /* main.m */; };
 		CE42987B17F47803009658E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE42987A17F47803009658E9 /* AppDelegate.m */; };
 		CE42987E17F47803009658E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE42987C17F47803009658E9 /* Main.storyboard */; };
-		CE42988117F47803009658E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE42988017F47803009658E9 /* ViewController.m */; };
-		CE42988317F47803009658E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE42988217F47803009658E9 /* Images.xcassets */; };
 		CE42988A17F47803009658E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE42988917F47803009658E9 /* XCTest.framework */; };
 		CE42988B17F47803009658E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE42986A17F47803009658E9 /* Foundation.framework */; };
 		CE42988C17F47803009658E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE42986E17F47803009658E9 /* UIKit.framework */; };
 		CE42989417F47803009658E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE42989217F47803009658E9 /* InfoPlist.strings */; };
 		CE42989617F47803009658E9 /* SplitClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE42989517F47803009658E9 /* SplitClassTests.m */; };
+		CE4298A717F47AA7009658E9 /* PlayerViewController+Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4298A617F47AA7009658E9 /* PlayerViewController+Timer.m */; };
+		CE4298AA17F48E13009658E9 /* PlayerViewControllerMain.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4298A917F48E13009658E9 /* PlayerViewControllerMain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,16 @@
 		CE42987917F47803009658E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE42987A17F47803009658E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE42987D17F47803009658E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE42987F17F47803009658E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE42988017F47803009658E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CE42988217F47803009658E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE42988817F47803009658E9 /* SplitClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE42988917F47803009658E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CE42989117F47803009658E9 /* SplitClassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SplitClassTests-Info.plist"; sourceTree = "<group>"; };
 		CE42989317F47803009658E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE42989517F47803009658E9 /* SplitClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitClassTests.m; sourceTree = "<group>"; };
+		CE42989F17F47822009658E9 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		CE4298A517F47AA7009658E9 /* PlayerViewController+Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PlayerViewController+Timer.h"; sourceTree = SOURCE_ROOT; };
+		CE4298A617F47AA7009658E9 /* PlayerViewController+Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PlayerViewController+Timer.m"; sourceTree = SOURCE_ROOT; };
+		CE4298A817F48E13009658E9 /* PlayerViewControllerMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewControllerMain.h; sourceTree = "<group>"; };
+		CE4298A917F48E13009658E9 /* PlayerViewControllerMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewControllerMain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +114,15 @@
 		CE42987017F47803009658E9 /* SplitClass */ = {
 			isa = PBXGroup;
 			children = (
+				CE4298A517F47AA7009658E9 /* PlayerViewController+Timer.h */,
+				CE4298A617F47AA7009658E9 /* PlayerViewController+Timer.m */,
 				CE42987917F47803009658E9 /* AppDelegate.h */,
 				CE42987A17F47803009658E9 /* AppDelegate.m */,
 				CE42987C17F47803009658E9 /* Main.storyboard */,
-				CE42987F17F47803009658E9 /* ViewController.h */,
-				CE42988017F47803009658E9 /* ViewController.m */,
-				CE42988217F47803009658E9 /* Images.xcassets */,
+				CE42989F17F47822009658E9 /* PlayerViewController.h */,
 				CE42987117F47803009658E9 /* Supporting Files */,
+				CE4298A817F48E13009658E9 /* PlayerViewControllerMain.h */,
+				CE4298A917F48E13009658E9 /* PlayerViewControllerMain.m */,
 			);
 			path = SplitClass;
 			sourceTree = "<group>";
@@ -228,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE42988317F47803009658E9 /* Images.xcassets in Resources */,
 				CE42987517F47803009658E9 /* InfoPlist.strings in Resources */,
 				CE42987E17F47803009658E9 /* Main.storyboard in Resources */,
 			);
@@ -249,9 +252,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE42988117F47803009658E9 /* ViewController.m in Sources */,
 				CE42987B17F47803009658E9 /* AppDelegate.m in Sources */,
 				CE42987717F47803009658E9 /* main.m in Sources */,
+				CE4298AA17F48E13009658E9 /* PlayerViewControllerMain.m in Sources */,
+				CE4298A717F47AA7009658E9 /* PlayerViewController+Timer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
